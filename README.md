@@ -40,63 +40,97 @@ cd grammar-correction-system-using-NLP
 
 ## 🛠️ Setup & Installation
 
-Create and activate a virtual environment (optional but recommended):
+Follow the steps below to set up the project locally.
 
-bash
-python -m venv venv
+### Create a Virtual Environment (Optional but Recommended)
 
-git clone https://github.com/thanmai09/grammar-correction-system-using-NLP.git
-cd grammar-correction-system-using-NLP
+    python -m venv venv
 
-##Activate the virtual environment:
-# macOS / Linux
-source venv/bin/activate
+### Activate the Virtual Environment
 
-# Windows
-venv\Scripts\activate
+**Windows**
 
-##Install dependencies:
-pip install -r requirements.txt
+    venv\Scripts\activate
 
-###📖 Usage
+**macOS / Linux**
 
-You can run the grammar correction system in one of the following ways:
+    source venv/bin/activate
 
-###📝 Using the Jupyter Notebook
+### Install Dependencies
+
+    pip install -r requirements.txt
+
+---
+
+## 📖 Usage
+
+You can run the Grammar Correction System using the provided Jupyter Notebook.
+
+### 📝 Using the Jupyter Notebook
 
 Open the interactive notebook:
 
-jupyter notebook grammar_corection.ipynb
+    jupyter notebook grammar_corection.ipynb
 
-###📂 Project Structure
-grammar-correction-system-using-NLP/
-├── README.md
-├── grammar_corection.ipynb
-├── requirements.txt
-├── data/                   # (Optional) linguistic data files
-├── models/                 # (Optional) trained model files
-└── utils/                  # (Optional) helper modules
+Follow the instructions inside the notebook to input text and view grammar corrections.
 
+---
 
-###🙌 Contributing
+## 🔍 Example
 
-We welcome contributions! To contribute:
+**Input**
 
-Fork the repository
+    She no go to school yesterday.
 
-Create a new branch (git checkout -b feature/YourFeature)
+**Output**
 
-Commit your changes (git commit -m "Add some feature")
+    She did not go to school yesterday.
 
-Push to your branch (git push origin feature/YourFeature)
+Note: Output quality depends on the NLP rules and models used in the implementation.
 
-Open a Pull Request
+---
 
-###📝 License
+## 📂 Project Structure
 
-Thanks to the open NLP community and projects like CorrectLy and other grammar correction tools for inspiration.
+    grammar-correction-system-using-NLP/
+    │
+    ├── README.md
+    ├── grammar_corection.ipynb
+    ├── requirements.txt
+    │
+    ├── data/        # Optional linguistic data files
+    ├── models/      # Optional trained model files
+    └── utils/       # Helper functions and utilities
 
+---
 
+## 🙌 Contributing
 
+Contributions are welcome!
 
+1. Fork the repository  
+2. Create a new branch  
 
+       git checkout -b feature/YourFeature
+
+3. Commit your changes  
+
+       git commit -m "Add some feature"
+
+4. Push to your branch  
+
+       git push origin feature/YourFeature
+
+5. Open a Pull Request  
+
+---
+
+## 📝 License
+
+This project is open source and available under the **MIT License**.
+
+---
+
+## 🤝 Acknowledgements
+
+Thanks to the open NLP community and projects like **CorrectLy** and other grammar correction tools for inspiration.
